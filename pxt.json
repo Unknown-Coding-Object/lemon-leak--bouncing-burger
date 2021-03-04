@@ -1,0 +1,35 @@
+{
+    "name": "Lemon Leak + Bouncing Burger",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-lantern": "github:riknoll/pxt-lantern#v0.1.1",
+        "storyboard": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.0",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.10.0",
+        "color-coded-tilemap": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.3.44",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
